@@ -5,14 +5,7 @@ public class Scope {
         int a = 10;
         int b = 20;
         String name = "Kunal";
-        {
-                // reassign the origin ref variable to some other value
-            System.out.println(a);
-                int c = 99;
-                name = "Rahul";
-            System.out.println(name);
-                // values initialised in this block, will remain in block
-        }
+        
         int c = 900;
         System.out.println(a);
         System.out.println(name);
