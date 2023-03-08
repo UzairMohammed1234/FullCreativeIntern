@@ -1,7 +1,7 @@
 package OOPS;
 
 public class Overloading {
-	public class Overloading {
+	
 	    public static void main(String[] args) {
 //	      
 	        int ans = sum(3, 4, 78);
@@ -26,4 +26,4 @@ public class Overloading {
 	        System.out.println(name);
 	    }
 	}
-}
+
