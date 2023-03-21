@@ -13,11 +13,13 @@ public class Main
 		   catch(Exception e)
 		   {
 		       System.out.println("Andar pakda gaya");
+		      
 		   }
 		   finally
 		   {
 		       System.out.println("Andar ka bhi chala");
 		   }
+		   	   System.out.println(" work");
 		} 
 		catch(Exception e) {
 		    System.out.println("error pakda gaya");
@@ -26,6 +28,8 @@ public class Main
 		{
 		    System.out.println("Bahar ka bhi chala");
 		}
+		
+		System.out.println("Bri");
 	}
 }
 

@@ -5,7 +5,7 @@ class Vehicle
 	HashMap<String,ArrayList<String>> map = new HashMap<>(); 
 	ArrayList<String> list =new ArrayList<String>();
 	ArrayList<String> ud=new ArrayList<String>();
-	public void add_user(String temp)
+	public void add_user(String temp) 
 	{	
 		ud.add(temp);
 		StringBuilder panid=new StringBuilder();
@@ -24,7 +24,7 @@ class Vehicle
 	
 	public void addVehicle(String temp)
 	{	int count=0;
-		StringBuilder panid=new StringBuilder();
+		StringBuilder panid=new StringBuilder(); 
 		for(int i=0;i<temp.length();i++)
 		{
 			if(temp.charAt(i)!=',')
@@ -89,7 +89,7 @@ public class Test {
 		Scanner sc=new Scanner(System.in);
 		Vehicle beh=new Vehicle();
 		beh.add_user("dl-sd-as,utsav,M,26");
-		beh.addVehicle("dl-sd-as,Car,Maruti Suzuki Brezza,dl-01-12345");
-		beh.get_Vehicles_Info("dl-sd-as");
+		beh.addVehicle("dl-sd-ad,Car,Maruti Suzuki Brezza,dl-01-12345");
+		beh.get_Vehicles_Info("dl-sd-ad");
 	}
 }
