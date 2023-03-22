@@ -5,7 +5,7 @@ public class FinallyNotExecuted {
 	{
 		try
 		{
-			int a=1/0;
+			int a = 1/0 ;
 			
 		}
 		catch(Exception e)
@@ -17,5 +17,7 @@ public class FinallyNotExecuted {
 		{
 			System.out.println("This will not be executed");
 		}
+		
+		
 	}
 }
