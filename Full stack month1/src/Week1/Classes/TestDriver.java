@@ -1,4 +1,4 @@
-package Classes;
+package Week1.Classes;
 
 public class TestDriver {
 	public static void main(String args[]) {
